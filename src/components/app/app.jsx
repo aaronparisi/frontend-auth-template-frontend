@@ -8,7 +8,7 @@ import LoginContainer from '../session/login_container'
 import HomeContainer from '../home/home_container'
 
 import { Route } from 'react-router-dom'
-import { AuthRoute, ProtectedRoute } from '../../utils/route_util'
+import { AuthRoute } from '../../utils/route_util'
 
 const App = () => {
 

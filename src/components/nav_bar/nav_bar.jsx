@@ -22,7 +22,7 @@ class NavBar extends React.Component {
   render() {
     return (
       <header className="nav-bar">
-        <Link className="btn" to="/">BLUEBIRD</Link>
+        <Link className="btn" to="/">Home</Link>
         {/* <Link className="btn" to="/chirps">CHIRPS</Link> */}
         <div>
           <LoggedInBoolRoute trueComponent={this.callSignOutLinks} falseComponent={this.callSignInLinks} path="/"/>
